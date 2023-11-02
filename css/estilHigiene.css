@@ -76,9 +76,9 @@ main{
     font-size: large;
     
 }
-#TipusHigiene{
+.TipusHigiene{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .TipusHigiene{
     flex: 1;
