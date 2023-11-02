@@ -75,9 +75,13 @@ main{
     font-size: large;
     
 }
+div{
+    background-color: white;
+}
 #formulari{
     text-align: center;
-    padding: 2px;
+    margin: 2px;
+    background-color: white;
 
 }
 div a{
