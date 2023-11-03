@@ -19,44 +19,44 @@
             </nav>
         </header>
         <main>
-            <section>
-                <br>
-                <h3 style="font-size:large">Aquest formulari serveix per registrar-se a la nostre pàgina web</h3>
-                <br>
-                <div id="formulari" style="border:solid">
-                <br>
+            <h3 style="font-size:large">Aquest formulari serveix per registrar-se a la nostre pàgina web</h3>
+            <section id="registerForm">
+                
+
+                <div id="formulari">
+
                 <form action="./login.php" method="POST" enctype="multipart/form-data">
-                    <label for="nom">Nom:</label>
-                    <input id="nom" type="text" name="nom" placeholder="Introdueix el teu nom" autofocus required>
-                    <br>
-                    <br>
-                    <label for="password">Contrasenya:</label>
-                    <input id="password" type="password" name="password" placeholder="Introdueix la teva contrasenya" required>
-                    <br>
-                    <br>
-                    <label for="mail">Email:</label>
-                    <input id="mail" type="email" name="mail" placeholder="Introdueix el teu correu electrònic" required>
-                    <br>
-                    <br>
-                    <label for="teléfon">Teléfon:</label>
-                    <input id="teléfon" type="tel" name="teléfon" placeholder="666798653" required>
-                    <br>
-                    <br>
-                    <label for="data">Data de neixament:</label>
-                    <input id="data" type="date" name="data" required>
-                    <br>
-                    <br>
-                    <label for="altura">Altura:</label>
-                    <input id="altura" type="number" name="altura" step="0.01" min="1" max="2.5" value="1.70">
-                    <br>
-                    <br>
-                    <label for="pes">Pes corporal:</label>
-                    <input id="pes" type="number" name="pes" step="0.1">
-                    <br>
-                    <br>
-                    <input type="submit">
-                    <br>
-                    <br>
+                    <div class="formPair">
+                        <label for="nom">Nom:</label>
+                        <input id="nom" type="text" name="nom" placeholder="Introdueix el teu nom" autofocus required>
+                    </div>
+                    <div class="formPair">
+                        <label for="password">Contrasenya:</label>
+                        <input id="password" type="password" name="password" placeholder="Introdueix la teva contrasenya" required>
+                    </div>
+                    <div class="formPair">
+                        <label for="mail">Email:</label>
+                        <input id="mail" type="email" name="mail" placeholder="Introdueix el teu correu electrònic" required>
+                    </div>
+                    <div class="formPair">
+                        <label for="teléfon">Teléfon:</label>
+                        <input id="teléfon" type="tel" name="teléfon" placeholder="666798653" required>
+                    </div>
+                    <div class="formPair">
+                        <label for="data">Data de neixament:</label>
+                        <input id="data" type="date" name="data" required>
+                    </div>
+                    <div class="formPair">
+                        <label for="altura">Altura:</label>
+                        <input id="altura" type="number" name="altura" step="0.01" min="1" max="2.5" value="1.70">
+                    </div>
+                    <div class="formPair">
+                        <label for="pes">Pes corporal:</label>
+                        <input id="pes" type="number" name="pes" step="0.1">
+                    </div>
+                    <div class="formPair">
+                        <input type="submit">
+                    </div>
                 </form>
                 </div>
             </section>
