@@ -94,6 +94,5 @@ footer{
 }
 
 .dermo1{
-    position: relative;
-    display: inline-block;
+ height:"0" width="0" style="display:none;visibility:hidden"
 }
