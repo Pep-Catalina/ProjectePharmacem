@@ -16,6 +16,18 @@ main {
     height: 60%s;
 }
 
+.carouselDermocosmetica{
+    text-align: center;
+    width: 1500px;
+    height: 650px;
+    margin: 0;
+    padding: 0;
+  }
+
+.Tractaments{
+ vertical-align: text-bottom; (+++ FALTA MODIFICAR +++)
+}
+
 #LogoPharmacemSinFondo{
     height: 100px;
     width: 170px;
@@ -91,8 +103,4 @@ footer{
     justify-content: center;
     align-items: center;
     
-}
-
-.dermo1{
- height:"0" width="0" style="display:none;visibility:hidden"
 }
