@@ -1,5 +1,7 @@
 *{
-    margin: 0;
+    margin: 0em;
+    padding: 0em;
+    border: 0em;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: azure;
@@ -58,11 +60,6 @@ main{
 section{
     display: 1;
     text-align: left;
-}
-.fromPair{
-    margin: 3px;
-    padding: 1px;
-    flex: 1;
 }
 div a{
     color:blue;
