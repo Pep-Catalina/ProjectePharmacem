@@ -48,7 +48,6 @@ a:hover{
     color: rgb(2, 124,0)
 }
 
-
 #LogoPharmacemSinFondo{
     height: 100px;
     width: 170px;
@@ -69,10 +68,6 @@ section{
 div a{
     color:blue;
 
-}
-
-div a:hover{
-    color: rgb(2, 124,0)
 }
 
 footer{
