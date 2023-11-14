@@ -44,6 +44,11 @@ nav{
     align-items: center;
     text-align: center;
 }
+a:hover{
+    color: rgb(2, 124,0)
+}
+
+
 #LogoPharmacemSinFondo{
     height: 100px;
     width: 170px;
@@ -65,9 +70,11 @@ div a{
     color:blue;
 
 }
+
 div a:hover{
     color: rgb(2, 124,0)
 }
+
 footer{
     height: 20%;
     display: flex;
