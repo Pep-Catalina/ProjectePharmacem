@@ -16,7 +16,14 @@ header{
     flex: 1;
     display: flex;
     align-items: center;
+    flex-direction: row;
 }
+
+#LogoPharmacemSinFondo{
+    height: 100px;
+    width: 170px;
+}
+
 #logoBox{
     flex: 0.5;
 }
@@ -35,6 +42,7 @@ h1{
     text-align: lefts;
     text-align: center;
 }
+
 nav{
     display: flex;
     flex-direction: row;
@@ -45,6 +53,7 @@ nav{
     text-align: center;
     
 }
+
 main{
     height: 60%;    
     display: flex;
@@ -55,20 +64,25 @@ main{
     display: 1;
 
 }
+
 .carouselSalut{
     height: 90vh;
     width: 100vw;
 }
+
 .TiposSalut{
     display: 1;
 }
+
 div a{
     color:blue;
 
 }
-div a:hover{
+
+a:hover{
     color: rgb(2, 124,0)
 }
+
 footer{
     height: 20%;
     display: flex;
