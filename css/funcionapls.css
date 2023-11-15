@@ -54,12 +54,12 @@ a:hover{
 }
 main{
     height: 60%;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
 }
 #VideoPastillas{
-    height: 90vh;
     width: 100vw;
+    height: 50vh;
 }
 section{
     display: 1;
