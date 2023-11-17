@@ -1,50 +1,38 @@
 *{
     margin: 0em;
+    padding: 0em;
+    border: 0em;
     color: black;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: azure;
     text-decoration: none;
-
 }
-
 body{
-    height: 100vh;
-    max-width: 100vw;
+    height: 100%;
+    width: 100%;
 }
-
 header{
     height: 20%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    color: black;
-    font-weight: bolder;
-    font-size: x-large;
-    text-decoration: none;
-}
-
-#logoBox
-{
-    flex: 0,5;
-}
-
-#titolSuperior
-{
     flex: 1;
+    display: flex;
+    align-items: center;
 }
+#logoBox{
+    flex: 0.5;
+}
+#titolSuperior{
+    flex: 0.5;
+    justify-content: center;
 
-#barraNavegacio
-{
-    flex: 2.5;
+}
+#barraNavegacio{
+    flex: 1.5;
     font-size: large;
-
 }
-
 h1{
     font-size: x-large;
     text-align: lefts;
+    text-align: center;
 }
 nav{
     display: flex;
@@ -56,55 +44,45 @@ nav{
     text-align: center;
     
 }
-a:hover{
-    color: rgb(2, 124, 0)
-
-}
-@media (max-with:700px){
-    header{
-        flex-direction: column;
-    }
-}
-
-#LogoPharmacemSinFondo{
-    height: 100px;
-    width: 170;
-}
 main{
-    height: 60%;
-    text-align: left;
-    font-size: large;
-    
-}
-.TipusHigiene{
-    display: flex;
-    flex-direction: row;
-}
-.TipusHigiene{
-    flex: 1;
-    padding: 0,5em;
+    height: 60%;    
     display: flex;
     flex-direction: column;
+    background-color:azure;
+}
+#carouselHigiene{
+    display: 1;
+
+}
+.carouselHigiene{
+    height: 90vh;
+    width: 100vw;
+}
+.TiposHigiene{
+    display: 1;
+}
+.fromPair{
+    margin: 3px;
+    padding: 1px;
+    flex: 1;
 }
 div a{
     color:blue;
 
 }
 div a:hover{
-    color: rgb(2, 124, 0);
+    color: rgb(2, 124,0)
 }
 footer{
     height: 20%;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 .footerBox{
     flex: 1;
     padding: 0.5em;
     display: flex;
     flex-direction: column;
-
-   
 }
 .footerImg{
     flex: 1;
