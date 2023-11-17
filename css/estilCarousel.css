@@ -76,6 +76,10 @@ img {
   background-color: #717171;
 }
 
+.slideshow-container a:hover{
+  color: grey;
+}
+
 /* Fading animation */
 .fade {
   animation-name: fade;
