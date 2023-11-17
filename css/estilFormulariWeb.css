@@ -93,6 +93,11 @@ main{
     padding: 1px;
     flex: 1;
 }
+#submit{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 div a{
     color:blue;
@@ -101,6 +106,8 @@ div a{
 div a:hover{
     color: rgb(2, 124, 0);
 }
+
+
 footer{
     height: 20%;
     display: flex;
