@@ -1,7 +1,7 @@
 *{
-    margin: 0em;
-    padding: 0em;
-    border: 0em;
+    margin: 0;
+    padding: 0;
+    border: 0;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: azure;
@@ -29,9 +29,10 @@ header{
     flex: 1.5;
     font-size: large;
 }
+
 h1{
     font-size: x-large;
-    text-align: lefts;
+    text-align: left;
     text-align: center;
 }
 nav{
@@ -43,6 +44,10 @@ nav{
     align-items: center;
     text-align: center;
     
+}
+#LogoPharmacemSinFondo{
+    height: 100px;
+    width: 170px;
 }
 main{
     height: 60%;    

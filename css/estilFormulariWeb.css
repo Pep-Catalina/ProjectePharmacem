@@ -7,7 +7,6 @@
     text-decoration: none;
 
 }
-
 body{
     background-color: azure;
     height: 100vh;
@@ -19,7 +18,18 @@ header{
     flex: 1;
     display: flex;
     align-items: center;
+    flex-direction: row;
 }
+
+a:hover{
+    color: rgb(2, 124,0)
+}
+
+#LogoPharmacemSinFondo{
+    height: 100px;
+    width: 170px;
+}
+
 #logoBox{
     flex: 0.5;
 }
@@ -38,29 +48,19 @@ h1{
     text-align: lefts;
     text-align: center;
 }
+
+a{
+    color:black
+}
+
 nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 125px;
-
     align-items: center;
     text-align: center;
     
-}
-a:hover{
-    color: rgb(2, 124, 0)
-
-}
-@media (max-with:700px){
-    header{
-        flex-direction: column;
-    }
-}
-
-#LogoPharmacemSinFondo{
-    height: 100px;
-    width: 170;
 }
 main{
     height: 60%;
