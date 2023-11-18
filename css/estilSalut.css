@@ -63,24 +63,8 @@ nav{
 
 main{
     height: 60%;    
-    display: flex;
-    flex-direction: column;
     background-color:azure;
 }
-#carouselSalut{
-    display: 1;
-
-}
-
-.carouselSalut{
-    height: 90vh;
-    width: 100vw;
-}
-
-.TiposSalut{
-    display: 1;
-}
-
 div a{
     color:blue;
 
