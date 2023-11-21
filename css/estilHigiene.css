@@ -16,7 +16,18 @@ header{
     flex: 1;
     display: flex;
     align-items: center;
+    flex-direction: row;
 }
+
+a:hover{
+    color: rgb(2, 124,0)
+}
+
+#LogoPharmacemSinFondo{
+    height: 100px;
+    width: 170px;
+}
+
 #logoBox{
     flex: 0.5;
 }
@@ -29,37 +40,30 @@ header{
     flex: 1.5;
     font-size: large;
 }
+
 h1{
     font-size: x-large;
     text-align: lefts;
     text-align: center;
 }
+
+a{
+    color:black
+}
+
 nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 125px;
-
     align-items: center;
     text-align: center;
     
 }
+
 main{
     height: 60%;    
-    display: flex;
-    flex-direction: column;
     background-color:azure;
-}
-#carouselHigiene{
-    display: 1;
-
-}
-.carouselHigiene{
-    height: 90vh;
-    width: 100vw;
-}
-.TiposHigiene{
-    display: 1;
 }
 .fromPair{
     margin: 3px;

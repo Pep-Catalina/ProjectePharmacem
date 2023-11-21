@@ -63,9 +63,9 @@ img {
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px; /*modificar*/
-  width: 15px; /*modificar*/
-  margin: 0 2px; /*modificar*/
+  height: 1rem;
+  width: 1rem;
+  margin: 0.5rem;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
