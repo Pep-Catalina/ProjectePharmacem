@@ -68,6 +68,10 @@ main{
     font-size: large;
     
 }
+#TituoloantesFormulario{
+    padding: 1em;
+
+}
 /*
 #formulari{
     text-align: left;
@@ -111,6 +115,7 @@ footer{
     height: 20%;
     display: flex;
     flex-direction: row;
+
 }
 .footerBox{
     flex: 1;

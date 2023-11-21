@@ -24,13 +24,13 @@
             </nav>
         </header>
         <main>
-            <h3 style="font-size:large">Aquest formulari serveix per registrar-se a la nostre pàgina web</h3>
+            <h3 style="font-size:large" id="TituoloantesFormulario">Aquest formulari serveix per registrar-se a la nostre pàgina web</h3>
             <section id="registerForm">
                 
                 <div id="formulari">
                 
                 <form action="./login.php" method="POST" enctype="multipart/form-data">
-                    <h2>Registrat:</h2>
+                    <h2 id="TitoloRegistrat">Registrat:</h2>
                     <div class="formPair">
                         <label for="nom">Nom:</label>
                         <input id="nom" type="text" name="nom" placeholder="Introdueix el teu nom" autofocus required>
@@ -75,7 +75,7 @@
                         <input id="Al·lergies/Intolerancies" type="text" name="Al·lergies/Intolerancies" step="0.1">
                     </div>
                     <div class="formPair">
-                        <button>Send Message</button>
+                        <button>Registrar-se</button>
                     </div>
                 </form>
                 
