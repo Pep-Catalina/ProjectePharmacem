@@ -68,6 +68,25 @@ section{
     display: 1;
     text-align: left;
 }
+
+.article{
+    display: flex;
+    flex-direction: column;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+}
+
+#section01{
+    flex: 1;
+}
+
+#section02{
+    flex: 1;
+}
+
 #maps{
     display: 1;
     height: 25em;
