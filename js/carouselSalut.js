@@ -1,3 +1,11 @@
+const DERMOESTETICA = "Dermoestetica.html";
+const DIETETICA = "Dietetica.html";
+const HIGIENE = "Higiene.html";
+const SALUT = "Salut.html";
+
+let page = window.location.pathname.split("/").pop();
+//console.log(page);
+
 /* Una array (tren) agafa las fotos que s'enenyen en el carrousel. El segon array conte la informacio alternatiba de las fotos. Cuan fas una array tot a de ser del mateix format */
 let imgArrRoute = ["../img/Salut1.png", "../img/Salut2.png", "../img/Salut3.png"];
 let imgArrAlt = ["Un metge content", "Mapa conceptual del cervell", "Nen a la revisio optica"];

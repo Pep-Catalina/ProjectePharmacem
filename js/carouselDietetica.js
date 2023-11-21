@@ -1,5 +1,5 @@
 /* Una array (tren) agafa las fotos que s'enenyen en el carrousel. El segon array conte la informacio alternatiba de las fotos. Cuan fas una array tot a de ser del mateix format */
-let imgArrRoute = ["../img/Dietetica1.png.png", "../img/Dietetica2.png", "../img/Dietetica3.png"];
+let imgArrRoute = ["../img/Dietetica1.png", "../img/Dietetica2.png", "../img/Dietetica3.png"];
 let imgArrAlt = ["Conjunt de menja saludable", "Un metje amb fruita", "Conjunt de fruita"];
 
 let slideIndex = 0;
