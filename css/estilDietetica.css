@@ -19,6 +19,7 @@ header{
     align-items: center;
 }
 #logoBox{
+    padding: 0;
 }
 #titolSuperior{
     flex: 0.7;
