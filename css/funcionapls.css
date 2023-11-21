@@ -58,11 +58,12 @@ main{
     display: flex;
     flex-direction: column;
 }
-#VideoPastillas{
-    display: 1;
-    width: 90vw;
-    height: 50vh;
+
+#imagenInicio{
+    height: 90vh;
+    width: 98.8vw;
 }
+
 section{
     display: 1;
     text-align: left;
