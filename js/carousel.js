@@ -1,9 +1,10 @@
-/**/
+/*Declarem la constant del document*/
 const DERMOESTETICA = "Dermocosmetica.html";
 const DIETETICA = "Dietetica.html";
 const HIGIENE = "Higiene.html";
 const SALUT = "Salut.html";
 
+/*Operacio per trobar en quin document ens trobem*/
 let page = window.location.pathname.split("/").pop();
 //console.log(page);
 
@@ -11,6 +12,7 @@ let page = window.location.pathname.split("/").pop();
 let imgArrRoute;
 let imgArrAlt;
 
+/*Depenent de la page (operacio anterior) escull un cas per cada pagina*/
 switch (page) {
   case DERMOESTETICA:
     imgArrRoute = ["../img/Dermocosmetica1.png", "../img/Dermocosmetica2.png", "../img/Dermocosmetica3.png"];
