@@ -3,32 +3,34 @@
     <head>
         <meta charset="UTF-8">
         <title>Formulari Pharmacem</title>
-        <link rel="stylesheet" href="../css/estilFormulariWeb.css">
-        <link rel="shortcut icon" href="../img/LogoPharmacemSinFondo.png">
+        <link rel="stylesheet" href="./../css/estilFormulariWeb.css">
+        <link rel="stylesheet" href="./../css/estilFormulari.css">
+        <link rel="shortcut icon" href="./../img/LogoPharmacemSinFondo.png">
     </head>
     
     <body>
         <header>
             <div id="logoBox">
-            <a href="../index.html"><img id="LogoPharmacemSinFondo" src="../img/LogoPharmacemSinFondo.png" alt="Logo empresa Pharmacem"></a>
+            <a href="./../index.html"><img id="LogoPharmacemSinFondo" src="./../img/LogoPharmacemSinFondo.png" alt="Logo empresa Pharmacem"></a>
             </div>
             <div id="titolSuperior">
             <h1 style="text-align:center"><b>Formulari</b></h1>
             </div>
             <nav id="barraNavegacio">
-                <a href="../web/Salut.html">Salut</a>
-                <a href="../web/Dermocosmetica.html">Dermocosmetica</a>
-                <a href="../web/Salut.html">Dietetica</a>
-                <a href="../web/Higiene.html">Higiene</a>          
+                <a href="./../web/Salut.html">Salut</a>
+                <a href="./../web/Dermocosmetica.html">Dermocosmetica</a>
+                <a href="./../web/Salut.html">Dietetica</a>
+                <a href="./../web/Higiene.html">Higiene</a>          
             </nav>
         </header>
         <main>
-            <h3 style="font-size:large">Aquest formulari serveix per registrar-se a la nostre pàgina web</h3>
+            <h3 style="font-size:large" id="TituoloantesFormulario">Aquest formulari serveix per registrar-se a la nostre pàgina web</h3>
             <section id="registerForm">
                 
                 <div id="formulari">
-
+                
                 <form action="./login.php" method="POST" enctype="multipart/form-data">
+                    <h2 id="TitoloRegistrat">Registrat:</h2>
                     <div class="formPair">
                         <label for="nom">Nom:</label>
                         <input id="nom" type="text" name="nom" placeholder="Introdueix el teu nom" autofocus required>
@@ -45,12 +47,12 @@
                         <input id="Sexe2" type="radio" name="Sexe">
                     </div>
                     <div class="formPair">
-                        <label for="password">Contrasenya:</label>
-                        <input id="password" type="password" name="password" placeholder="Introdueix la teva contrasenya" required>
-                    </div>
-                    <div class="formPair">
                         <label for="mail">Email:</label>
                         <input id="mail" type="email" name="mail" placeholder="Introdueix el teu correu electrònic" required>
+                    </div>
+                    <div class="formPair">
+                        <label for="password">Contrasenya:</label>
+                        <input id="password" type="password" name="password" placeholder="Introdueix la teva contrasenya" required>
                     </div>
                     <div class="formPair">
                         <label for="teléfon">Teléfon:</label>
@@ -73,9 +75,10 @@
                         <input id="Al·lergies/Intolerancies" type="text" name="Al·lergies/Intolerancies" step="0.1">
                     </div>
                     <div class="formPair">
-                        <input id="submit" type="submit">
+                        <button>Registrar-se</button>
                     </div>
                 </form>
+                
                 </div>
             </section>
         </main>
@@ -83,7 +86,7 @@
         <footer>
 
             <div class="footerImg">
-                <img id="LogoPharmacemSinFondoPieDePagina" src="/img/LogoPharmacemSinFondo.png" 
+                <img id="LogoPharmacemSinFondoPieDePagina" src="./../img/LogoPharmacemSinFondo.png" 
                 alt="És una imagen del logo pharmacem">
             </div>
             <div class="footerBox">

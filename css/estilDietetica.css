@@ -19,10 +19,10 @@ header{
     align-items: center;
 }
 #logoBox{
-    flex: 0.5;
+    padding: 0;
 }
 #titolSuperior{
-    flex: 0.5;
+    flex: 0.7;
     justify-content: center;
 
 }
@@ -43,6 +43,7 @@ nav{
     gap: 125px;
     align-items: center;
     text-align: center;
+    font-size: large;
 }
 #LogoPharmacemSinFondo{
     height: 100px;

@@ -16,7 +16,18 @@ header{
     flex: 1;
     display: flex;
     align-items: center;
+    flex-direction: row;
 }
+
+a:hover{
+    color: rgb(2, 124,0)
+}
+
+#LogoPharmacemSinFondo{
+    height: 100px;
+    width: 170px;
+}
+
 #logoBox{
     flex: 0.5;
 }
@@ -35,14 +46,20 @@ h1{
     text-align: left;
     text-align: center;
 }
+
+a{
+    color:black
+}
+
 nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 125px;
-
     align-items: center;
     text-align: center;
+    text-decoration: none;
+    color:black;
     
 }
 #LogoPharmacemSinFondo{

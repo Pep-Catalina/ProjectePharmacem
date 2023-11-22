@@ -58,19 +58,43 @@ main{
     display: flex;
     flex-direction: column;
 }
-#VideoPastillas{
-    display: 1;
-    width: 90vw;
-    height: 50vh;
+
+#imagenInicio{
+    height: 90vh;
+    width: 98.8vw;
 }
-section{
-    display: 1;
-    text-align: left;
+
+.article{
+    display: flex;
+    flex-direction: column;
+
 }
+
+#section01{
+    display: flex;
+    flex-direction: row;
+}
+
+#divsection01{
+    display: flex;
+    flex-direction: column;
+}
+
+#section01{
+    display: flex;
+    flex-direction: row;
+}
+
+#divsection02{
+    display: flex;
+    flex-direction: column;
+}
+
 #maps{
     display: 1;
     height: 25em;
     width: 25em;
+    
 }
 
 div a{
