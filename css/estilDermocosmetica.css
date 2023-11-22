@@ -70,6 +70,102 @@ main{
     height: 60%;    
     background-color:azure;
 }
+
+h2{
+    font-size: xx-large;
+}
+
+.box {
+    inline-size: 200px;
+    writing-mode: horizontal-tb;
+    display: flex;
+}
+
+.d1 {
+    margin-block-start: 20px;
+    padding-inline-end: 4em;
+    padding-block-start: 2px;
+    border-block-start: 5px solid #5390F5;
+    border-inline-end: 10px dotted #9DC6FA;
+    border-block-end: 1em double #5390F5;
+    border-inline-start: 1px solid black;
+    flex: 1;
+    font-size: x-large;
+}
+  
+.d2 {
+    margin-top: 20px;
+    padding-right: 4em;
+    padding-top: 2px;
+    border-top: 5px solid #5390F5;
+    border-right: 10px dotted #9DC6FA;
+    border-bottom: 1em double #5390F5;
+    border-left: 1px solid black;
+    flex: 1;
+    font-size: x-large;
+}
+
+.d3 {
+    margin-top: 20px;
+    padding-right: 4em;
+    padding-top: 2px;
+    border-top: 5px solid #5390F5;
+    border-right: 10px dotted #9DC6FA;
+    border-bottom: 1em double #5390F5;
+    border-left: 1px solid black;
+    flex: 1;
+    font-size: x-large;
+}
+
+.d4 {
+    margin-top: 20px;
+    padding-right: 4em;
+    padding-top: 2px;
+    border-top: 5px solid #5390F5;
+    border-right: 10px dotted #9DC6FA;
+    border-bottom: 1em double #5390F5;
+    border-left: 1px solid black;
+    flex: 1;
+    font-size: x-large;
+}
+
+.d5 {
+    margin-top: 20px;
+    padding-right: 4em;
+    padding-top: 2px;
+    border-top: 5px solid #5390F5;
+    border-right: 10px dotted #9DC6FA;
+    border-bottom: 1em double #5390F5;
+    border-left: 1px solid black;
+    flex: 1;
+    font-size: x-large;
+}
+
+.d6 {
+    margin-top: 20px;
+    padding-right: 4em;
+    padding-top: 2px;
+    border-top: 5px solid #5390F5;
+    border-right: 10px dotted #9DC6FA;
+    border-bottom: 1em double #5390F5;
+    border-left: 1px solid black;
+    flex: 1;
+    font-size: x-large;
+    text-align: justify;
+}
+
+.d7 {
+    margin-top: 20px;
+    padding-right: 4em;
+    padding-top: 2px;
+    border-top: 5px solid #5390F5;
+    border-right: 10px dotted #9DC6FA;
+    border-bottom: 1em double #5390F5;
+    border-left: 1px solid black;
+    flex: 1;
+    font-size: x-large;
+}
+
 div a:hover{
     color: rgb(2, 124,0)
 }
