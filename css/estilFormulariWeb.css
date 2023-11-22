@@ -77,8 +77,11 @@ main{
 }
 
 #formulari{
+    text-align: left;
     flex: 1;
     display: flex;
+    width: 26vw;
+    height: 20vh;
 }
 /*
 #formulari{
