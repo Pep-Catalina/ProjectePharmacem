@@ -64,30 +64,23 @@ main{
     width: 98.8vw;
 }
 
-.article{
-    display: flex;
-    flex-direction: column;
-
-}
-
-#section01{
+#sections{
     display: flex;
     flex-direction: row;
+    padding: 3em;
 }
-
 #divsection01{
     display: flex;
-    flex-direction: column;
-}
+    flex: 1;
+    padding: 1em;
 
-#section01{
-    display: flex;
-    flex-direction: row;
+    font-size: x-large;
+    text-align: left;
 }
-
 #divsection02{
     display: flex;
-    flex-direction: column;
+    flex: 1;
+    padding: 1em;
 }
 
 #maps{

@@ -66,11 +66,19 @@ main{
     height: 60%;
     text-align: left;
     font-size: large;
-    
+    display: flex;
+    flex-direction: column;
 }
 #TituoloantesFormulario{
+    flex: 1;
+    display: flex;
     padding: 1em;
 
+}
+
+#formulari{
+    flex: 1;
+    display: flex;
 }
 /*
 #formulari{
