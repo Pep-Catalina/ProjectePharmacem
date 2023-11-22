@@ -45,7 +45,7 @@ function currentSlide(number) {
     slideIndex = number;
     showSlides(slideIndex);
 }
-/* Aquesta funcio actualitza la imatge i el seu Alt. COmproba si numbrer esta fora dels limits del array de la imatja ajusta slideIndex en consecuencia
+/* Aquesta funcio actualitza la imatge i el seu Alt. Comproba si numbrer esta fora dels limits del array de la imatja ajusta slideIndex en consecuencia
 despres actualitza el seu atribut "src" i "alt" del element amb l'id de carousellmg amb la ruta i despricio de la diapositiva actual */
 function showSlides(number) {
 
