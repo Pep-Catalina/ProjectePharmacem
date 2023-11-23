@@ -42,7 +42,7 @@ input{
     outline:none;
     resize:none;
     margin: 1em;
-
+    padding: 0.5em;
     transition:all .3s;
     border-bottom:2px solid black;
 }
