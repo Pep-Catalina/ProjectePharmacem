@@ -14,7 +14,7 @@ body{
 }
 
 header{
-    height: 20%;
+    height: 20vh;
     flex: 1;
     display: flex;
     align-items: center;
@@ -45,7 +45,7 @@ a:hover{
 
 h1{
     font-size: x-large;
-    text-align: lefts;
+    text-align: left;
     text-align: center;
 }
 
@@ -56,14 +56,12 @@ a{
 nav{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 125px;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     
 }
 main{
-    height: 60%;
     text-align: left;
     font-size: large;
     display: flex;
@@ -80,8 +78,8 @@ main{
     text-align: left;
     flex: 1;
     display: flex;
-    width: 26vw;
-    height: 20vh;
+    width: 30vw;
+    height: 60vh;
 }
 /*
 #formulari{
@@ -123,7 +121,7 @@ div a:hover{
 
 
 footer{
-    height: 20%;
+    height: 20vh;
     display: flex;
     flex-direction: row;
 
