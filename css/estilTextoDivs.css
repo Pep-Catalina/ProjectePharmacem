@@ -7,17 +7,22 @@
     column-count: 1;
     
 }
-.d1 {
-    margin-block-start: 1.25em;
+.d {
+    /*margin-block: 1.25em;
     padding-inline-end: 4em;
     padding-block-start: 2px;
     border-block-start: 0.25em solid #5390F5;
     border-inline-end: 0.40em dotted #9DC6FA;
     border-block-end: 1em double #5390F5;
     border-inline-start: 1px solid black;
-    font-size: x-large;
-    display: flex;
+    font-size: x-large;*/
+
+    /*outline: 1px solid black;*/
+
+    text-align: center;
+
     flex: 1;
+<<<<<<< HEAD
     
 } 
 .d2 {
@@ -29,67 +34,12 @@
     border-bottom: 1em double #5390F5;
     border-left: 1px solid black;
     font-size: x-large;
+=======
+
+>>>>>>> beba97ed30c4f1bcbeab75045448a4df43705343
     display: flex;
-    flex: 1;
-}
-.d3 {
-    margin-top: 1.25em;
-    padding-right: 4em;
-    padding-top: 2px;
-    border-top: 0.25em solid #5390F5;
-    border-right: 0.40em dotted #9DC6FA;
-    border-bottom: 1em double #5390F5;
-    border-left: 1px solid black;
-    font-size: x-large;
-    display: flex;
-    flex: 1;
-}
-.d4 {
-    margin-top: 1.25em;
-    padding-right: 4em;
-    padding-top: 2px;
-    border-top: 0.25em solid #5390F5;
-    border-right: 0.40em dotted #9DC6FA;
-    border-bottom: 1em double #5390F5;
-    border-left: 1px solid black;
-    font-size: x-large;
-    display: flex;
-    flex: 1;
-}
-.d5 {
-    margin-top: 1.25em;
-    padding-right: 4em;
-    padding-top: 2px;
-    border-top: 0.25em solid #5390F5;
-    border-right: 0.40em dotted #9DC6FA;
-    border-bottom: 1em double #5390F5;
-    border-left: 1px solid black;
-    font-size: x-large;
-    display: flex;
-    flex: 1;
-}
-.d6 {
-    margin-top: 1.25em;
-    padding-right: 4em;
-    padding-top: 2px;
-    border-top: 0.25em solid #5390F5;
-    border-right: 0.40em dotted #9DC6FA;
-    border-bottom: 1em double #5390F5;
-    border-left: 1px solid black;
-    font-size: x-large;
-    text-align: justify;
-    display: flex;
-    flex: 1;
-}
-.d7 {
-    margin-top: 1.25em;
-    padding-right: 4em;
-    padding-top: 2px;
-    border-top: 0.25em solid #5390F5;
-    border-right: 0.40em dotted #9DC6FA;
-    border-bottom: 1em double #5390F5;
-    border-left: 1px solid black;
-    font-size: x-large;
-    display: flex;
-    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }

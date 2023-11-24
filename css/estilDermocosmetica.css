@@ -89,6 +89,7 @@ footer{
     height: 20%;
     display: flex;
     justify-content: center;
+
 }
 .footerBox{
     flex: 1;
