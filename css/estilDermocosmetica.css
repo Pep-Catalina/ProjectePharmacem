@@ -74,14 +74,7 @@ main{
 h2{
     font-size: xx-large;
 }
-.box {
-    height: 6.25em;
-    inline-size: 15em;
-    writing-mode: horizontal-tb;
 
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-}
 div a:hover{
     color: rgb(2, 124,0)
 }

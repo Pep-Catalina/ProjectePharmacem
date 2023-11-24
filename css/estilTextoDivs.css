@@ -1,3 +1,11 @@
+.box {
+    height: 6.5em;
+    inline-size: 15em;
+    writing-mode: horizontal-tb;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
 .boxDivs{
     display: flex;
     flex-direction: row;
@@ -8,16 +16,13 @@
     
 }
 .d {
-    /*margin-block: 1.25em;
+    margin-block: 1.25em;
     padding-inline-end: 4em;
     padding-block-start: 2px;
     border-block-start: 0.25em solid #5390F5;
-    border-inline-end: 0.40em dotted #9DC6FA;
     border-block-end: 1em double #5390F5;
-    border-inline-start: 1px solid black;
-    font-size: x-large;*/
 
-    /*outline: 1px solid black;*/
+    font-size: x-large;
 
     text-align: center;
 
