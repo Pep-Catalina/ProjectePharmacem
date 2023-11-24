@@ -63,11 +63,13 @@ main{
     height: 90vh;
     width: 98.8vw;
 }
-
 #sections{
     display: flex;
     flex-direction: row;
-    padding: 3em;
+    padding: 1.25em;
+
+    justify-content: center;
+    align-items: center;
 }
 #divsection01{
     display: flex;
@@ -75,7 +77,7 @@ main{
     padding: 1em;
 
     font-size: x-large;
-    text-align: left;
+
 }
 #divsection02{
     display: flex;
