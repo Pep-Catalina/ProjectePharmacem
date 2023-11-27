@@ -1,6 +1,7 @@
 *{
     margin: 0em;
     padding: 0em;
+    border: 0em;
     color: black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -14,6 +15,7 @@ body{
 }
 
 header{
+    min-height: 6.5em;
     height: 20%;
     flex: 1;
     display: flex;
